@@ -1,7 +1,12 @@
-export default function HomePage(){
-  return (
-    <div>
-      Páginas inicial 123
-    </div>
-  )
+import styled from "styled-components";
+
+const StyledDiv = styled.div`
+  background-color: ${props => props.theme.colors.black}
+`;
+
+export default function HomePage() {
+  return(
+     <StyledDiv>Páginas inicial 123</StyledDiv>
+     
+     );
 }
