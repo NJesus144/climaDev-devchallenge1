@@ -5,7 +5,9 @@ const GlobalStyle = createGlobalStyle`
   * {
     padding: 0;
     margin: 0;
-    background-color: ${(props) => props.theme.colors.white}
+    background-color: ${(props) => props.theme.colors.white};
+    box-sizing: border-box;
+    font-family: sans-serif;
   }
 `;
 
