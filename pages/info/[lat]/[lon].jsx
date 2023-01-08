@@ -8,7 +8,7 @@ import ClimaCard from "../../../src/components/climaCard/ClimaCard";
 
 const Body = styled.div`
   background-color: ${(props) => props.theme.colors.grey};
-  min-height: 100vh;
+  min-height: calc(100vh - 105px);
 `;
 
 const Content = styled.div`
